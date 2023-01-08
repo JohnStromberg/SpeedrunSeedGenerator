@@ -13,26 +13,78 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+@font-face {
+  font-family: 'Roboto';
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+
+
+.minecraft_container{
   color: white;
+}
+.hex_container{
+  color:white;
+}
+
+
+.text_container{
+  background: black;
+  font-family: minecraftregular, serif;
+  flex-direction: row;
+  display: flex;
+  justify-content: center;
+}
+.letter_container{
+  font-size: calc(35px + 2vmin);
+}
+.title{
+  font-size: calc(25px + 2vmin);
+  font-family: Roboto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #E4E6EB;
+}
+
+.topbar{
+  background-color: #242626;
+}
+
+.output_header{
+  color: #242626;
+  font-family: Verdana;
+  font-size: calc(10px + 1vmin);
+}
+.app_box {
+  background-color: #121212;
+}
+
+.header {
+  background-color: #242626;
+  position: fixed;
+  top: 0;
+}
+
+
+.footer{
+  margin-top: 0.5rem;
+  font-family: Verdana;
+  padding: 0.5rem;
+  background-color: #242626;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  color: white;
+  text-align: left;
 }
 
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.space{
+  width: 10px;
 }

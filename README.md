@@ -1,6 +1,6 @@
 # View Live Preview Here:
 
-www.test.com
+https://speedrunseedgenerator.netlify.app
 
 # Instructions
 Press the button to generate a new seed that is designed for fast speed running times.
